@@ -16,7 +16,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5 {
   font-weight: 700;
 }
 
@@ -26,6 +26,12 @@ a {
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
+}
+
+h6 {
+  color: #545E6C;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 a:hover {
